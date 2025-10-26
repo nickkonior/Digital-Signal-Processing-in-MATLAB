@@ -12,7 +12,9 @@ Er3. Creates the distinct signal
  x[n] = e^n, -1<=n<=2  
  x[n] = sqrt(24)  
   
-Er4. 
+Er4. Function with a linear signal for input that seperates the even and odd parts  
+
+
 
 
 
@@ -28,54 +30,6 @@ Er4.
 
   
 
-  Apply mean filtering on flowers.jpg for kernel sizes 
-5
-×
-5
-5×5, 
-7
-×
-7
-7×7, and 
-9
-×
-9
-9×9 under AWGN noise with SNR = 10, 15, 18 dB.
-Equation:
 
-MSE
-=
-1
-𝑀
-𝑁
-∑
-𝑖
-,
-𝑗
-(
-𝑥
-(
-𝑖
-,
-𝑗
-)
-−
-𝑠
-(
-𝑖
-,
-𝑗
-)
-)
-2
-MSE=
-MN
-1
-	​
 
-i,j
-∑
-	​
 
-(x(i,j)−s(i,j))
-2
