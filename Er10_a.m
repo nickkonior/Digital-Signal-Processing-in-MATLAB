@@ -1,17 +1,17 @@
 n = -20:20;
 
-% Βάζουμε το σήμα εισόδου
+% Input signal
 x = 2 * (n == 1) + 4 * (n == -1) + 9 * (n == -2);
 
-% Δεσμεύουμε μνήμη γι την έξοδο 
+% Malloc memory for output
 y = zeros(size(n));
 
-% Φτιάχνουμε τους συντελεστές της ΔΕ 
+% Arange the parameters for the Differential EQ
 a1 = -0.4;
 b0 = 1; 
 b2 = 0.7;
 
-% Εφαρμόζουμε την διαφορική εξίσωση στην έξοδο 
+% output = DEQ(input) 
 for i = 3:length(n)
     y(i) = b0*x(i) + a1*y(i-1) + b2*x(i-2);
 end
