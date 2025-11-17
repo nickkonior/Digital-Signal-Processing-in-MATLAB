@@ -13,7 +13,11 @@ Er3. Creates the distinct signal
  x[n] = sqrt(24)  
   
 Er4. Function with a linear signal for input that seperates the even and odd parts  
-
+  
+Er5. Performs discrete   convolution between a custom   input signal and impulse
+ response using conv(...,'same') 
+ and plots the resulting system 
+ output y[n]y[n]y[n].
 
 
 
