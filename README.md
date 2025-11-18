@@ -19,6 +19,10 @@ Er5. Performs discrete   convolution between a custom   input signal and impulse
  and plots the resulting system 
  output y[n]y[n]y[n].
 
+# Er 6  
+Toeplitz array creation. 
+
+# Er 7  
 
 
 
